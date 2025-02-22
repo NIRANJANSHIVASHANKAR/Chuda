@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+}
+
+.bg-navy-800 {
+  background-color: #1B365D;
+}
+
+.bg-navy-900 {
+  background-color: #0F2A4A;
+}
+
+.from-navy-900 {
+  --tw-gradient-from: #0F2A4A;
+}
+
+.to-navy-800 {
+  --tw-gradient-to: #1B365D;
+}
