@@ -30,7 +30,7 @@ function Navbar() {
             <button
               onClick={() => scrollToSection('contact')}
               className="ml-16 bg-orange-600 text-white px-8 py-3 rounded hover:bg-orange-700 transition-colors duration-300">
-              Get Free Consultation
+              Contact US
             </button>
           </div>
         </div>
